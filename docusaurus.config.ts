@@ -9,6 +9,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
+  /*Will affect URL https://docusaurus-personal-p6b9zti96-wadewei0307s-projects.vercel.app/sitemap.xml info. */
   url: 'https://docusaurus-personal-p6b9zti96-wadewei0307s-projects.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
