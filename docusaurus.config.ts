@@ -14,7 +14,7 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-  https://docusaurus-personal-gjze9tvuf-wadewei0307s-projects.vercel.app/
+  //https://docusaurus-personal-gjze9tvuf-wadewei0307s-projects.vercel.app/
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
