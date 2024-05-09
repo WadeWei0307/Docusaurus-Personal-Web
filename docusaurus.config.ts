@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   /*On top of pages setting*/
-  title: 'My Site',
+  title: 'Wade Site',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -64,7 +64,7 @@ const config: Config = {
       title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.svg', //left top logo
       },
       items: [
         {
@@ -75,18 +75,28 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://www.cakeresume.com/a0926151140',
+          label: 'Resume-Chinese',
+          position: 'right',
+        },
+        {
+          href: 'https://drive.google.com/file/d/1niV_L6adVL0yzkrBGU1uL-HxRJZ08MGE/view?usp=drive_link',
+          label: 'Resume-English',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/WadeWei0307',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
-    /*define page color
+
     colorMode: {
-      defaultMode: "dark", //default page color is dark
-      disableSwitch: true, //can hide the top right of color button
+      defaultMode: 'dark', //default page color is dark
+      disableSwitch: false, //can hide the top right of color button
     },
-    */
+
     /*can show the announce on the top
     announcementBar:{
       id: "Kao Kao",
