@@ -10,7 +10,7 @@ const config: Config = {
 
   // Set the production url of your site here
   /*Will affect URL https://docusaurus-personal-p6b9zti96-wadewei0307s-projects.vercel.app/sitemap.xml info. */
-  url: 'https://docusaurus-personal-gjze9tvuf-wadewei0307s-projects.vercel.app/',
+  url: 'https://docusaurus-personal-web.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -80,7 +80,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://drive.google.com/file/d/1niV_L6adVL0yzkrBGU1uL-HxRJZ08MGE/view?usp=drive_link',
+          href: 'https://drive.google.com/file/d/1ZrTDU1pcjXRVd8c6wcdT2nON2GrPJAs-/view?usp=drive_link',
           label: 'Resume-English',
           position: 'right',
         },
