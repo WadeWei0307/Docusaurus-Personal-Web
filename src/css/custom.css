@@ -45,3 +45,7 @@
   color: #EA7500;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.hero .text--left{
+  text-align: left;
+}

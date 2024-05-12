@@ -10,7 +10,7 @@ const config: Config = {
 
   // Set the production url of your site here
   /*Will affect URL https://docusaurus-personal-p6b9zti96-wadewei0307s-projects.vercel.app/sitemap.xml info. */
-  url: 'https://docusaurus-personal-web.vercel.app/',
+  url: 'https://wadewei0307-personal-web.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -41,14 +41,14 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           //editUrl:    
           /* Here is you can let the others user can send PR to your github you can put your github respository link to here */
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            //'https://github.com/WadeWei0307/Docusaurus-Personal-Web/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            //'https://github.com/WadeWei0307/Docusaurus-Personal-Web/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -61,10 +61,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Wade Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg', //left top logo
+        alt: 'Wade Site Logo',
+        src: 'img/Wade_logo.png', //left top logo
       },
       items: [
         {
@@ -74,6 +74,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        /*
         {
           href: 'https://www.cakeresume.com/a0926151140',
           label: 'Resume-Chinese',
@@ -84,6 +85,7 @@ const config: Config = {
           label: 'Resume-English',
           position: 'right',
         },
+        */
         {
           href: 'https://github.com/WadeWei0307',
           label: 'GitHub',
@@ -106,6 +108,8 @@ const config: Config = {
         isCloseable: false,
     },
     */
+
+    /* Some setting on the bottom of my Site homepage
     footer: {
       style: 'dark',
       links: [
@@ -151,6 +155,8 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+  */
+    
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

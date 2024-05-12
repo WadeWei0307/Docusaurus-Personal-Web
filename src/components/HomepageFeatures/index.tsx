@@ -4,52 +4,55 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Image: string;
+  //Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Easy to Use Wade Site',
+    Image: require('@site/static/img/Wade_logo.png').default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <ul>
+        <li>Tutorial: Each coding skill or technical skill which I have learned will be shared at here.</li>
+        <li>Blog: Every project I have done will share the procedure from start to end. Also, if I got any error during project, I will share my solution.</li>
+      </ul>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'About Me',
+    //Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Image: require('@site/static/img/Personal_logo.jpg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <ul>
+        <li>2019-2021 National Taiwan University of Science and Technology - Computer Science Master.</li>
+        <li>2022-? Teradyne Inc. - Field Application Engineer.</li>
+      </ul>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'My Resume',
+    //Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Image: require('@site/static/img/Resume_logo.png').default,
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <ul>
+        <li>Chinese: You can find my Chinese resume in <a href= "https://www.cakeresume.com/a0926151140">here</a>.</li>
+        <li>Chinese: You can find my English resume in <a href= "https://drive.google.com/file/d/1ZrTDU1pcjXRVd8c6wcdT2nON2GrPJAs-/view?usp=drive_link">here</a>.</li>
+      </ul>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Image, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Image} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <p className="text--left">{description}</p>
       </div>
     </div>
   );
