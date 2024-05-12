@@ -28,3 +28,20 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/*Change homepage image*/
+.hero{
+  background-image: url(../../static/img/homePage_Banner.jpg);
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+}
+
+.hero .hero__title {
+  color: #FFDC35;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero .hero__subtitle{
+  color: #EA7500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

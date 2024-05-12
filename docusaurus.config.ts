@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   /*On top of pages setting*/
   title: 'Wade Site',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'No Pain No Gain, Pain as much as you can',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
