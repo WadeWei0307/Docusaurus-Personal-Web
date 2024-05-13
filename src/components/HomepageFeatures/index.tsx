@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <ul>
         <li>Chinese: You can find my Chinese resume in <a href= "https://www.cakeresume.com/a0926151140">here</a>.</li>
-        <li>Chinese: You can find my English resume in <a href= "https://drive.google.com/file/d/1ZrTDU1pcjXRVd8c6wcdT2nON2GrPJAs-/view?usp=drive_link">here</a>.</li>
+        <li>English: You can find my English resume in <a href= "https://drive.google.com/file/d/1ZrTDU1pcjXRVd8c6wcdT2nON2GrPJAs-/view?usp=drive_link">here</a>.</li>
       </ul>
     ),
   },
