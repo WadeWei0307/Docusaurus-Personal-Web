@@ -1,7 +1,7 @@
 ---
 title: Intro
 description: A short description of this page
-sidebar_position: 1
+sidebar_position: 4
 keywords: [keywords, describing, the main topics]
 ---
 
